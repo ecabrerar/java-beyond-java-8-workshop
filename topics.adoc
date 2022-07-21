@@ -1,0 +1,39 @@
+== Novedades después de Java 8 que hacen tu vida más fácil
+
+Eudris Cabrera
+Web: https://eudriscabrera.com
+Twitter: @eudriscabrera
+
+Repositorio:
+https://github.com/ecabrerar/java-beyond-java-8-workshop
+
+
+Parte 0: Repaso Java SE 8
+* [ ] Expresiones Lambdas
+* [ ] API Stream
+* [] Optional
+Parte 1: Cambios en el lenguaje en Java SE 9
+* [ ] Actualizaciones y nuevas funcionalidades
+* [ ] JShell
+* [ ] Ciclo de lanzamiento de Java
+* [ ] Versiones con soporte a largo plazo (LTS)
+Parte 2: Cambios en el lenguaje en Java SE 10
+* [ ] Inferencia de tipos en variables locales
+
+Parte 3:Cambios en el lenguaje en Java SE 11
+* Nuevas funcionalidades y actualizaciones en JDK 11
+* Algunas consideraciones que debes tomar en cuenta para migrar de Java 8 a Java 11.
+
+Parte 4:
+* Expresiones en switch
+* Bloque de texto
+* Pattern Matching para Instanceof
+* Mejoras en el manejo de NullPointerExceptions
+
+Parte 5:
+ Tipo de dato Record
+
+Parte 6:
+* Sealed classes
+* Pattern Matching para switch
+* Servidor por defecto
