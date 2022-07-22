@@ -5,7 +5,16 @@ En su nuevo modelo de lanzamiento, cada seis meses liberan una nueva versión de
 
 A partir de Java SE 8 han sucedido muchos cambios, las actualizaciones a los APIs y las nuevas funcionalidades del lenguaje son realmente geniales y muy útiles en tu trabajo del día a día.
 
-En este taller / laboratorio, Eudris Cabrera trabajará con las novedades más importantes después de Java SE 8, los beneficios que ofrecen y qué cosas emocionantes están por venir. Así como también, abordaremos tus inquietudes sobre los retos que supone el nuevo ciclo de lanzamiento.
+En este taller / laboratorio, [Eudris Cabrera](https://twitter.com/eudriscabrera) trabajará con las novedades más importantes después de Java SE 8, los beneficios que ofrecen y qué cosas emocionantes están por venir. Así como también, abordaremos tus inquietudes sobre los retos que supone el nuevo ciclo de lanzamiento.
+
+### Requisitos:
+Agradecemos tener listo los pre-requisitos previo al inicio de la siguiente sección:
+
+- git
+- sdkman https://sdkman.io/
+- Java 17 o Superior
+- Maven (Opcional)
+- El IDE de su preferencia (IntelliJ IDEA Community Editor, Eclipse, VS Code + Java Plugins)
 
 ### Tópicos
 Los temas que estaremos tratando son:

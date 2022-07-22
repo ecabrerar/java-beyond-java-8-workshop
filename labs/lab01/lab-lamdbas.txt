@@ -1,0 +1,34 @@
+1. Escribir los siguientes métodos que returnen una expresión
+lambda para realizar la siguiente operación.
+a) esPar: La expresión lambda debe retornar true si el número a evaluar es par
+b) esImpar: La expresión lambda debe retornar true si el número a evaluar es impar
+
+
+interface Operacion {
+ boolean validar(int numero);
+}
+
+public class EjecutaOperacion{
+
+  public static boolean validador (Operacion op, int numero){
+    return op.validar(numero);
+  }
+
+ //Agregar su codigo aquí
+
+}
+
+
+Ejemplo de uso:
+
+public class MiLambdaExpresion{
+
+  public static void main(String[] args){
+    EjecutaOperacion ejeOp = new EjecutaOperacion();
+
+    Operacion opPar = ejeOp.esPar();
+    boolean resultado =   ejeOp.validador(opPar,100);
+
+    //Imprimir resultado
+  }
+}

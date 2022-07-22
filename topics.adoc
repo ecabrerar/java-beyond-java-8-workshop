@@ -7,7 +7,6 @@ Twitter: @eudriscabrera
 Repositorio:
 https://github.com/ecabrerar/java-beyond-java-8-workshop
 
-
 Parte 0: Repaso Java SE 8
 * [ ] Expresiones Lambdas
 * [ ] API Stream
@@ -17,6 +16,8 @@ Parte 1: Cambios en el lenguaje en Java SE 9
 * [ ] JShell
 * [ ] Ciclo de lanzamiento de Java
 * [ ] Versiones con soporte a largo plazo (LTS)
+* [ ] Explorar alternativas a Oracle JDK
+* [ ] Herramientas de línea de comandos
 Parte 2: Cambios en el lenguaje en Java SE 10
 * [ ] Inferencia de tipos en variables locales
 

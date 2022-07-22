@@ -1,0 +1,6 @@
+1. Usando el API Stream generar los números del 1 al 10 y retornar la suma de ellos.
+2. Procesar la siguiente lista de palabras para que solamente contenga cadena de caracteres impares y en letra minúscula.
+JSON, MongoDB, Java, Neo4J, Wildfly, Red Hat, microcks, Apache, Eclipse, Liberica, Corretto
+3. Imprimir la siguiente lista usando el método Consumer c
+St. Louis Cardinals, NY  Mets, LA  Angels, Washington Nationals, LA Dodgers, NY Yankees, Boston Red Sox, Toronto Blue Jays, Cincinnati Red
+4.
