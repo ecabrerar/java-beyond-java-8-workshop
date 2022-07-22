@@ -3,4 +3,10 @@
 JSON, MongoDB, Java, Neo4J, Wildfly, Red Hat, microcks, Apache, Eclipse, Liberica, Corretto
 3. Imprimir la siguiente lista usando el método Consumer c
 St. Louis Cardinals, NY  Mets, LA  Angels, Washington Nationals, LA Dodgers, NY Yankees, Boston Red Sox, Toronto Blue Jays, Cincinnati Red
-4.
+4. Dado la siguiente lista, escribir un programa que tome de la lista todas las palabras que tengan longitud par y se
+agreguen a un set.
+Edificio, Casa, Escuela, Apartamento, Carro, Tienda,Farmacia,Supermercado,Plaza,Cine,Hotel
+
+5.Dado la siguiente lista,escribir programa que retorne un HashMap que contenga la palabra y la cantidad de veces que
+aparece en la lista.
+Edificio, Casa, Escuela, Apartamento, Edificio,Tienda,Farmacia,Apartamento,Plaza,Farmacia,Hotel

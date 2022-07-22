@@ -1,0 +1,12 @@
+Se desea crear un enum llamado "Entrada" que contemple los precios de las entradas a un
+evento en una sala famosa de entretenimiento.
+Los precios son los siguientes: 1,000 Balcón, 1,500 Platea, $2,500 VIP y RD$3,000 Front
+Stage Platinum.
+Crear una nueva clase llamada "PruebaEntrada" y recorriendo todos los valores de entrada
+permite saber el listado de precios.
+Tomar en consideración el método "values".
+Salida:
+El precio de la entrada en "BALCON" es RD$1,000.
+El precio de la entrada en "PlATEA" es de RD$1,500.
+El precio de la entrada en "VIP" es de RD$2,500.
+El precio de la entrada en "FRONT_STAGE_PLATINUM" es de RD$3,000.

@@ -1,0 +1,8 @@
+1. Dado la siguiente lista, buscar las palabras que contienen valores impares y devolver el primer elemento.
+
+Hotel, Plaza, Escuela, Uno, Cinco, Siete, Oro, SQL, Lider, Ecuador
+
+Imprimir el resultado obtenido.
+
+
+2. Continuando con el ejemplo anterior, lanzar una excepción si no es encontrado ningún elemento

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.eudriscabrera.examples.java</groupId>
+	<artifactId>beyond-java-8-workshop</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Java Beyond Java 8 Workshop</name>
+	<description>Java Beyond Java 8 Workshop</description>
+	<properties>
+		<java.version>11</java.version>
+		<!-- <maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source> -->
+	</properties>
+
+	<licenses>
+		<license>
+			<name>CC BY-NC-SA 4.0</name>
+			<url>https://creativecommons.org/licenses/by-nc-sa/4.0/</url>
+		</license>
+	</licenses>
+	<organization>
+		<name>Java Dominicano</name>
+		<url>https://github.com/JavaDominicano</url>
+	</organization>
+
+
+	<developers>
+		<developer>
+			<id>ecabrerar</id>
+			<name>Eudris Cabrera</name>
+			<email>eudris@gmail.com</email>
+			<url>https://eudriscabrera.com/</url>
+			<organization>Java Dominicano</organization>
+			<organizationUrl>https://github.com/JavaDominicano</organizationUrl>
+			<roles>
+				<role>Software Developer</role>
+			</roles>
+			<timezone>-4</timezone>
+		</developer>
+	</developers>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+		<!-- 		<configuration>
+					<source>${maven.compiler.source}</source>
+					<target>${maven.compiler.target}</target>
+					<compilerArguments>
+						<endorseddirs>${endorsed.dir}</endorseddirs>
+					</compilerArguments>
+				</configuration> -->
+				
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>3.0.0</version>
+				<executions>
+					<execution>
+						<phase>install</phase>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>com.eudriscabrera.examples.java.BeyondJava8Workshop</mainClass>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+	</build>
+
+</project>
