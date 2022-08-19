@@ -5,6 +5,7 @@ import java.util.List;
 
 public class InferenciasTipos {
 
+	  
     //puedo utilizar el tipo var.
     //var objeto = 1; debe ser usado en el contexto local.
 
@@ -23,6 +24,9 @@ public class InferenciasTipos {
         System.out.println("El valor de la variable: "+entero);
         //una vez declarada no puedo cambiarlo.
         //entero = "Otro valor"; //no es compatible.
+
+//        List<String> s = new ArrayList<>();
+        
         var lista = new ArrayList<String>();
         lista.add("Hola");
         lista.add("Mundo");
@@ -30,7 +34,7 @@ public class InferenciasTipos {
         lista.add("Java");
 
         //iterando...
-        for(String s : lista){
+        for(var s : lista){
             System.out.println(s);
         }
     }
